@@ -1,0 +1,145 @@
+body{
+    font-size: medium;
+    font-family: 'arial' sans-serif;
+    background-color: #efeae6;
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    padding-top: 7px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+h1{
+    height: 35px;
+
+    margin: 0;
+    padding-left: 1%;
+    background-color: #5aaacf;
+    color: #ffffff;
+    border: solid 1px #008acf;
+    display: block;
+
+}
+iframe{
+    margin-left: 20px;
+    height: 300px;
+    width: 550px;
+}
+image{
+    height: 150px;
+    width: 90px;
+    margin-left: 2.1%;
+    border: solid 1px;
+    display: inline-block;
+}
+
+nav ul{
+    list-style: none;
+    background-color: #5aaacf;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0;
+}
+
+nav li{
+    font-size: 1.4em;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-left: 10px;
+    width: 100px;
+
+}
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+}
+
+nav a:hover{
+    background-color: #5aaacf;
+    color: #4a4a4f;
+}
+p{
+    width: 380px;
+    margin-left: 10px;
+    
+}
+
+.i{
+    margin-top: 100px;
+}
+span{
+    margin-left: 10px;
+    height: 40px;
+    width:50px;
+
+}
+.date-and-time{
+    color: grey;
+    font-size: 12px;
+}
+
+.div1{
+    display: inline-block ;
+    width: 900px;
+    margin-left: 350px;
+    background-color: white;
+}
+.div2{
+    display: inline-block ;
+    width: 600px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    background-color: white;
+}
+.div3{
+    display: inline-block ;
+    width: 600px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    background-color: white;
+}
+.image1{
+    height: 150px;
+    width: 690px;
+    margin-left:2%;
+    border: solid 1px;
+    display: inline-block;
+}
+.image2{
+    margin-left: 10px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    display: inline-block;
+}
+.p1{
+    margin-left: 350px;
+    text-align: center;
+    background-color: white;
+}
+.p2{
+    width: 110px;
+    margin-left: 25px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+    
+.profile{
+    height: 200px;
+    width: 150px;
+    margin-left: 50px;
+    text-align: center;
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+}

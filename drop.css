@@ -1,0 +1,86 @@
+.box{
+    width: 350px;
+    height: 30px;
+    display: block;
+    background-color: #bb2112;
+    color: #ffffff;
+    text-align: center;
+    font-size: x-large;
+    margin-left: 450px;
+    margin-top: 220px;
+    box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.2);
+}
+.navDefault{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #4a4a4f;
+}
+
+button{                                                                         /*makes the changes to all buttons unless a class or id overides it*/
+    border: none;                                                               /*removes the border*/
+    
+    background-color: #0997d3;
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    text-transform: uppercase;                                                  /*sets wearther the text is uper or lower case, can also set it to capitalise the first letter*/
+    cursor: pointer;                                                            /*sets the responce to the curser when you hover over the element*/
+}
+
+.dropdownMenu{
+    list-style: none;                                                           /*use this to select what style you want to use for the list*/
+    margin: 0;
+    padding: 0;
+    
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50px;
+    width: 150px;
+    text-align: center;
+
+    box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.2);                            /*This adds a shadow to the box*/
+    transform: translateY(-100%);                                               /* moves the drop down menu up*/
+    z-index: -1;                                                                /* used to hide elements behind another element*/
+    transition: transform .5s ease-in-out;                                      /*makes the menu drop down slower*/
+    
+}
+
+.dropdownLink{
+    text-decoration: none;
+    display: block;
+    background-color: #f9f9f9;
+    color: #4a4a4f;
+    padding: 10px 5px;
+    transition: background-color .5s ease-in-out, color .5s ease-in-out;
+}
+.dropdownLink:hover{                                                            /*use hover to tell the website what happens when you hover over the element*/
+    color: #fff;
+    background-color: #a0a0a3;
+    
+}
+
+.dropdown{
+    width: 150px;
+    position: relative;                                                         /*sets the dropdowns position to its parent*/
+    
+}
+
+.dropdown:hover button{                                                         /*remember to select what you are hovering over*/
+    background-color: #018ec5;
+}
+
+.dropdown:hover .dropdownMenu{
+    transform: translateY(0);                                                   /*sets location on Y axis when element is hovered over*/
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.marginLeft{
+    margin-left: 5px;
+}
